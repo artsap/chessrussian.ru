@@ -19,11 +19,11 @@ $this->setFrameMode(true);
 <div id="arrayChess">
     <h1>Имеем макссив:</h1>
 
-    <?php if ($USER->IsAdmin()) {
+    <?php
         echo '<pre>';
         print_r($arResult['ARRAY']);
         echo '</pre>';
-    } ?>
+     ?>
 
     <h3>Укажите число</h3>
 
